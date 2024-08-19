@@ -9,4 +9,11 @@ We use Python language and Pytorch library to establish our model.
 For the detailed environment, please follow `requirements.txt`
 
 ## Dataset
-We crawl the data from the Haodf website, the dataset is released at [Haodf.zip](./Haodf.zio)
+We crawl the data from the Haodf website, the dataset is released at [Haodf.zip](./Haodf.zip)
+
+## Run *MinT*
+### Data Preprocess
+First unzip the dataset with
+```
+unzip Haodf.zip -d ./Dataset
+```
