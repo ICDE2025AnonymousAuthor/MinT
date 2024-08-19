@@ -13,7 +13,17 @@ We crawl the data from the Haodf website, the dataset is released at [Haodf.zip]
 
 ## Run *MinT*
 ### Data Preprocess
-First unzip the dataset with
+First, unzip the dataset with
 ```
 unzip Haodf.zip -d ./Dataset
 ```
+Then generate datasets through
+```
+python ./Script/dataset_process.py
+```
+### Train and Evaluate *MinT* 
+Run *MinT* with 
+```
+python ./MinT/main.py --dataset=diab --batch_size=16 --lr_recall=0.01 --lr_rank=0.001 --embed_size=64
+```
+For different dataset, select `--dataset={dataset}` from `dataset={'diab', 'cold', 'CHD', 'lung', 'depr', 'pneu'}`
