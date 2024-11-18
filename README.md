@@ -1,6 +1,6 @@
 # MinT
 
-This is the implementation for our AAAI2025 paper:
+This is the implementation for our ICDE2025 paper:
 > Medical Match, Personal Touch: A Dual-Module Approach for Tailored Doctor Recommendations
 
 ## Environment
